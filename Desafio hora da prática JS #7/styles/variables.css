@@ -1,0 +1,8 @@
+:root {
+    --background-main: rgb(0, 240, 180);
+    --button-click: rgb(3, 247, 215);
+    --fonte-white: rgb(240, 240, 240);
+    --fonte-black: black;
+    --font-family-main: 'Arial', sans-serif;
+    --font-family-menu: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

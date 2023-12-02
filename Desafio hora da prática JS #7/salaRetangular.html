@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/components/salaRetangular.css">
+    
+    <title>Hora da prática JS#7</title>
+</head>
+<body>
+    <div class="challenger_container">
+        <ul class="links_container">
+            <ul class="links_container">
+                <li class="item_container"><a href="./imc.html">Cálculo do IMC</a></li>
+                <li class="item_container" ><a href="./fatorial.html">Cálculo com fatorial</a></li>
+                <li class="item_container" ><a href="./conversao.html">Conversão dolar para real</a></li>
+                <li class="item_container" ><a href="./salaRetangular.html" class="active">Área e perímetro de uma sala retangular</a></li>
+                <li class="item_container" ><a href="./salaCircular.html">Área e perímetro de uma sala circular</a></li>
+                <li class="item_container" ><a href="./tabuada.html">Tabuada</a></li>
+            </ul>
+        </ul>
+    </div>
+    <hr width="1" size="380">
+    <div class="content_container">
+        <h1 class="title">Sala retangular</h1>
+        <h3 class="sub-title">Cálcule a área e o perímetro da sala</h3>
+        <div class="input_container">
+            <input class="altura" type="number" placeholder="Digite a altura">
+            <input class="largura" type="number" placeholder="Digite a largura">
+        </div>
+        <button class="btn" onclick="enviarConteudo()">CALCULAR</button>
+    </div>
+
+    <script src="./scripts/salaRetangular.js"></script>
+</body>
+</html>

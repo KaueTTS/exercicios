@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(3, 145, 228);
+}
+
+.header-container {
+    margin-bottom: 1.6rem;
+}
+
+.text-content {
+    margin-top: 2rem;
+}
+
+button, input {
+    font-size: 1.4rem;
+    padding: 0.5rem;
+}
+
+
+h1, h3, p {
+    margin: 1rem 0 0 0;
+    color: black;
+    font-family:Arial, sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.input-content {
+    border-radius: 10px;
+    border: 0;
+}
+
+.input-content:focus {
+    background-color: rgb(126, 195, 252);
+}
+
+.btn {
+    text-transform: uppercase;
+    border: 2px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: rgb(89, 180, 255);
+}
+
+.btn:active {
+    background: blue;
+    color: white;
+}
+
+

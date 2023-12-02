@@ -1,0 +1,26 @@
+.challenger_container {
+    height: max-content;
+    width: max-content;
+}
+
+.item_container {
+    margin: 2rem 0 0 1rem;
+}
+
+hr {
+    position: absolute;
+    margin: 2rem 32rem 0 0;
+    background-color: var(--fonte-black);
+    border: none;
+}
+
+.challenger_container a {
+    font-family: var(--font-family-menu);
+    transition: .4s;
+}
+
+.challenger_container a.active,
+.challenger_container a:hover {
+    margin-left: 16px;
+    color: var(--fonte-white);
+}

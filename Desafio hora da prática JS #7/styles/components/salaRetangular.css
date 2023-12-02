@@ -1,0 +1,10 @@
+.content_container {
+    margin-right: 12rem;
+}
+
+.altura,
+.largura {
+    width: 12rem;
+    font-size: 1.5rem;
+    padding: 6px;
+}
