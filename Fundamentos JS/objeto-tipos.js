@@ -5,8 +5,19 @@ const cliente = {
     telefone: [
         '11 999999965', 
         '11 988899822'
-    ]
+    ], 
+    saldo: 200,
+    efetuaPagamento: function (valor) {
+        if (valor > this.saldo) {
+            console.log('Saldo insuficiente')
+        } else {
+            this.saldo -= valor
+            console.log(`Pagamento realizado. Novo saldo: R$${this.saldo}`)
+        }
+    }
 }
+
+cliente.efetuaPagamento(25)
 
 cliente.enderecos = [
     {
@@ -26,5 +37,3 @@ cliente.enderecos.push({
 const listaApenasApartamentos = cliente.enderecos.filter(
     (endereco) => endereco.apartamento === true
 )
-
-console.log(listaApenasApartamentos)
